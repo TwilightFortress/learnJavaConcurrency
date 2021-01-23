@@ -4,6 +4,7 @@ package com.yu;
  * 创建线程的方法
  * 1.通过继承thread方式创建线程
  * 2.实现Runnbale接口
+ * 3.使用lambda创建线程
  */
 public class createThreadTest {
     public static void main(String[] args) {
