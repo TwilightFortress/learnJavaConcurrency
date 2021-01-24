@@ -1,6 +1,6 @@
 package com.yu;
 
-public class threadJoinTest {
+public class threadJoinDemo {
 
     public static void main(String[] args) {
         testThreadJoin();

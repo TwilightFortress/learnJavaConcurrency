@@ -6,7 +6,7 @@ package com.yu;
  * 2.实现Runnbale接口
  * 3.使用lambda创建线程
  */
-public class createThreadTest {
+public class createThreadDemo {
     public static void main(String[] args) {
 
         System.out.println("[" + Thread.currentThread().getName() + "]" + " this thread is main thread!");

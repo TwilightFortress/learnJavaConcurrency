@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b377ccc-0886-4f26-a838-02aa4ee42e34" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yu/createThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yu/threadJoinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yu/threadDaemonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yu/threadInterruptDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yu/createThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yu/createThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yu/threadJoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yu/threadJoinDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yu/MyRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yu/MyRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yu/createThreadTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yu/myThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yu/myThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yu/threadJoinTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,20 +32,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createThreadTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yu/createThreadTest.java">
+      <file leaf-file-name="createThreadDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yu/createThreadDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="144">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="threadJoinTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yu/threadJoinTest.java">
+      <file leaf-file-name="threadJoinDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yu/threadJoinDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="54">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#93#94#0" expanded="true" />
                 <element signature="e#128#129#0" expanded="true" />
@@ -48,11 +54,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Runnable.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
+      <file leaf-file-name="threadInterruptDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yu/threadInterruptDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            <state relative-caret-position="255">
+              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+              <folding>
+                <element signature="e#95#96#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="threadDaemonDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yu/threadDaemonDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -69,13 +88,21 @@
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/yu/createThreadTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yu/threadStatusTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yu/threadJoinTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yu/createThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yu/createThreadDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yu/threadInterruptDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yu/threadDaemonDemo.java" />
       </list>
     </option>
   </component>
@@ -179,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.threadDaemonDemo">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -194,8 +221,30 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="threadJoinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yu.threadJoinTest" />
+    <configuration name="threadDaemonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yu.threadDaemonDemo" />
+      <module name="learnJavaConcurrency1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="threadInterruptDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yu.threadInterruptDemo" />
+      <module name="learnJavaConcurrency1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="threadJoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yu.threadJoinDemo" />
       <module name="learnJavaConcurrency1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -245,11 +294,15 @@
     </configuration>
     <list>
       <item itemvalue="Application.createThreadTest" />
-      <item itemvalue="Application.threadJoinTest" />
+      <item itemvalue="Application.threadJoinDemo" />
+      <item itemvalue="Application.threadInterruptDemo" />
+      <item itemvalue="Application.threadDaemonDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.threadJoinTest" />
+        <item itemvalue="Application.threadDaemonDemo" />
+        <item itemvalue="Application.threadInterruptDemo" />
+        <item itemvalue="Application.threadJoinDemo" />
         <item itemvalue="Application.createThreadTest" />
       </list>
     </recent_temporary>
@@ -264,7 +317,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611379945127</updated>
-      <workItem from="1611379950180" duration="6103000" />
+      <workItem from="1611379950180" duration="10759000" />
     </task>
     <task id="LOCAL-00001" summary="maven init">
       <created>1611380088239</created>
@@ -273,15 +326,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611380088239</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat:添加创建线程注释">
+      <created>1611391598600</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611391598600</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6103000" />
+    <option name="totallyTimeSpent" value="10759000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-321" y="-1080" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -294,7 +353,7 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20875764" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32977587" />
+      <window_info anchor="bottom" id="Terminal" weight="0.20875764" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
@@ -321,11 +380,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="maven init" />
-    <option name="LAST_COMMIT_MESSAGE" value="maven init" />
+    <MESSAGE value="feat:添加创建线程注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:添加创建线程注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -346,21 +406,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yu/createThreadTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yu/createThreadDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="144">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yu/threadJoinTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yu/threadJoinDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="54">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#93#94#0" expanded="true" />
             <element signature="e#128#129#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yu/threadInterruptDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yu/threadDaemonDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
